@@ -36,6 +36,8 @@ Beauty Life est un projet de site Web en ligne de beauté. Vous pouvez trouver d
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Functionality
+- Voir la documentation
 
 ## Project status
 Projet non terminé. Travaux en cours.
