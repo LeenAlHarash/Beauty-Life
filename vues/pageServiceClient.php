@@ -10,16 +10,14 @@ echo "<link rel='stylesheet' href='../CSS/CssServiceC.css' />";
 echo "<title>Service à la clientèle</title>";
 echo "</head>";
 
-
-
 // ************************ BODY *******************************
 echo "<body>";
-echo "<div>";
+echo "<div class='container'>"; // Added container div
 
 // Section pour le formulaire de contact
 echo <<<HTML
 <div style='margin-bottom: 20px;'>
-    <center><h1>Contacter le service client</h1></center>
+    <h1>Contacter le service client</h1>
     <h3>En cas de problème ou de question, n'hésitez pas à nous contacter via le formulaire ci-dessous :</h3>
 
     <!-- Formulaire Contact -->
@@ -44,8 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 HTML;
 }
 
-
-echo "</div>";
+echo "</div>"; // Close container div
 
 echo "</body>";
 echo "</html>";
