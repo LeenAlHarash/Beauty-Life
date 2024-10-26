@@ -1,0 +1,84 @@
+body{
+    background-color: whitesmoke; font-size: large;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3 {
+    color: rgb(246, 48, 81);
+    margin-bottom: 0px;
+}
+
+h5{
+    color: gray; 
+    margin-top: 0px;
+}
+
+button {
+    background-color: #007bff; color: white; padding: 10px 20px;
+    border: none; border-radius: 5px; cursor: pointer; border-radius: 10px;
+}
+
+button > a {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+  
+.login {
+    flex: 1;
+}
+  
+.signup {
+    flex: 1;
+}
+
+.line {
+    border:solid; border-left: 5px;
+    overflow: visible; margin: 0px 20px ;
+    height: 400px; color: grey;
+}
+
+input{
+    padding: 10px; width: 250px;
+}
+
+label{
+    text-align: left;
+}
+
+/*Pour Signup.html*/
+.returnBtn{
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px; border: none;
+    border-radius: 5px; cursor: pointer;
+}
+
+.returnBtn > a {
+    color: white;
+}
+
+.main {
+    flex: 1;
+}
+
+.second {
+    flex: 1;
+}
+
+.Button {
+    font-size: 17px;
+}
+
+.Button:hover {
+    color: black;
+}

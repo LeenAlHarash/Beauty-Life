@@ -1,0 +1,54 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux du site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Styles pour les titres */
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Styles pour les paragraphes */
+p {
+    margin-bottom: 10px;
+}
+
+/* Styles pour les listes non ordonnées */
+ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+/* Styles pour les liens */
+a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Styles pour les liens au survol */
+a:hover {
+    color: #0056b3;
+}
+
+.returnBtn{
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px; border: none;
+    border-radius: 5px; cursor: pointer;
+}
+
+.returnBtn > a {
+    color: white;
+}

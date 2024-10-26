@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/***** Navigation Bar *****/
+.navbar-container {
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: #f9e4eb;
+    color: white;
+}
+
+.navbar a.droite {
+    float: right;
+}
+
+/***** Product Section *****/
+.page_produit-container {
+    padding: 20px;
+    background-color: #fdf2f2;
+}
+
+.page_produit .barre {
+    margin: 10px;
+    background-color: rgb(255, 186, 186);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.page_produit .produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+.page_produit .produits .produit {
+background-color: azure;
+border: 5px solid palevioletred;
+border-radius: 8px;
+padding: 10px;
+margin: 10px;
+width: 430px;
+height: 550px;
+box-sizing: border-box;
+text-align: center;
+transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.page_produit .produits .produit:hover {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 10); /* Add box-shadow on hover */
+}
+
+.page_produit .produits .produit img {
+    width: 250px;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+}
+
+.returnBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.returnBtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.h1 {
+    padding: 15px;
+    text-align: center;
+    font-family: "Garamond", "Georgia", serif;
+}

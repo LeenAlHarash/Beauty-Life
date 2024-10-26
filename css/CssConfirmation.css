@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(253, 242, 242); font-size: large;
+}
+div{
+    text-align: center;
+}
+div > ul{
+    display: inline-block;
+}
+
+.returnBtn{
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px; border: none;
+    border-radius: 5px; cursor: pointer;
+}
+
+.returnBtn > a {
+    color: white;
+}
+
+h1{
+    background-color: rgb(255, 186, 186);
+}

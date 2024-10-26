@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(252, 234, 234); font-size: large;
+}
+
+h1{
+    text-align: center; background-color: rgb(255, 186, 186);
+}
+
+div > ul{
+    display: inline-block;
+}
+
+.button {
+    background-color: #007bff; color: #fff; padding: 10px 20px;
+    border: none; border-radius: 5px 10px; cursor: pointer;
+}
+
+button > a {
+    color: white;
+}
+
+.returnBtn{
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px; border: none;
+    border-radius: 5px; cursor: pointer;
+}
+
+.returnBtn > a {
+    color: white;
+}

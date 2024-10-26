@@ -1,0 +1,64 @@
+h1 { background-color: transparent;}
+
+body { background-color: whitesmoke; }
+
+li { list-style-type: none; }
+
+.returnBtn{
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #007bff;
+    padding: 10px 20px; border: none;
+    border-radius: 5px; cursor: pointer;
+}
+
+button {
+    background-color: pink; color: black; padding: 10px 20px;
+    border: none; border-radius: 5px; cursor: pointer; border-radius: 10px;
+}
+
+form{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+    font-style: oblique 40deg;
+    
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+h1{
+    background-color: pink;
+}
+
+.returnBtn > a {
+    color: white;
+}
+
+.line {
+    border:solid; border-left: 5px;
+    overflow: visible; margin: 0px 20px ;
+    height: 400px; color: grey;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
